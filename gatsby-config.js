@@ -5,7 +5,7 @@ module.exports = {
       name: `Stefano Bisio`,
       summary: `Front-End Developer with a passion for React.js and Web3.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Write-as-you-learn Dev blog`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: ``,
