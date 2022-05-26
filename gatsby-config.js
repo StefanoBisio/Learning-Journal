@@ -3,12 +3,12 @@ module.exports = {
     title: `My Learning Journal`,
     author: {
       name: `Stefano Bisio`,
-      summary: `London based Front-End Developer, while learning the React.js framework.`,
+      summary: `Front-End Developer with a passion for React.js and Web3.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: ``,
     },
   },
   plugins: [
