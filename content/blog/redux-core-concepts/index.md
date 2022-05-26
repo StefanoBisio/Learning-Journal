@@ -1,7 +1,7 @@
 ---
 title: "Redux core concepts"
 date: "2022-05-27T00:28:03.284Z"
-description: "Listing the essentials properties of the package React Router DOM"
+description: "Grouping key lessons from the React Redux lessons"
 ---
 
 ## Redux
