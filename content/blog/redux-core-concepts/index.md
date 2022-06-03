@@ -65,3 +65,25 @@ An solid overview of the goal of Redux, taken from StackOverflow:
 > Redux tries to ensure that you only mutate the state in the Reducers. This is important because it makes easier to think about your application data flow. Let's say you get a value in your UI that is not expected, or didn't update correctly. In that case, you could just think about which reducer is causing the mutation and see what went wrong. This makes thinking about Redux issues very simple and makes developers highly productive.
 
 #### 4. The Store is a container for state, it provides a way to dispatch actions, and it calls the reducer when actions are dispatched. Typically there is only one store in a Redux application.
+
+---
+
+Update after completing the core Redux API lessons
+
+**What is the Redux store and how is it used?**
+The state-management library Redux is centered around a single, powerful object called the store. This object is responsible for holding the entire application’s state, receiving action objects and then executing state changes based on the type of the action received, and informing (executing) listener functions when such changes occur.
+
+The three methods used in the course were:
+
+1. getState()
+2. dispatch(action)
+3. subscribe(listener)
+
+##### getState()
+Returns the current state tree of the application.
+
+##### dispatch()
+Redux ensures that the state is maintained reliably by requiring us to dispatch actions to the store if they wish to update the state. The store.dispatch() function accepts an action object as an argument and calculates the next state value by calling the reducer() with the current state and the action
+
+##### subscribe()
+The state of the store will likely change many times and the features of the application must be notified when those changes occur. The store.subscribe() method allows you to subscribe callback functions, called listeners, to be executed when the state data changes. 
